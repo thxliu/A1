@@ -1,4 +1,4 @@
-package src.main;
+package a1;
 
 import java.io.*;
 import java.util.Scanner;

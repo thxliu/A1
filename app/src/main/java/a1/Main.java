@@ -1,8 +1,6 @@
-package src.main;
-
-
-import java.util.ArrayList;
-import java.util.List;
+package a1;
+//import java.util.ArrayList;
+//import java.util.List;
 
 public class Main {
     public static float WholeSum(float[] arr){
