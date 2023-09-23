@@ -1,8 +1,12 @@
 package a1;
-//import java.util.ArrayList;
-//import java.util.List;
 
 public class Main {
+
+    /**
+     * Calculates the sum of the numbers in a given array 
+     * @param arr array of type Float containing the values
+     * @return the sum of the array 
+     */
     public static float WholeSum(float[] arr){
         float total = 0f;
          if (arr.length == 0){
@@ -17,6 +21,13 @@ public class Main {
         }
     }
 
+    /**
+     * Calculates the sum of the values within an array bounded by a given maximum and minimum index  
+     * @param arr array of type Float containing the values
+     * @param lo the lowest bounding index
+     * @param hi the highest bounding index
+     * @return the sum of the values in the bounded array
+     */
     public static float sum(float[] arr, int lo, int hi){
         float total = 0f;
         if (arr.length == 0){
@@ -32,6 +43,11 @@ public class Main {
         
     }
 
+    /**
+     * Calculates the sum of an index assuming that the lowest bound is 0 and the highest bound is the lenght of the array
+     * @param arr array of type Float containing the values
+     * @return the sum of the array 
+     */
     public static float sum(float[] arr){
         float total = 0f;
         if (arr.length == 0){
@@ -47,6 +63,13 @@ public class Main {
         }
     }
 
+    /**
+     * Calculates the mean of the values  within an array bounded by a given maximum and minimum index  
+     * @param arr array of type Float containing the values
+     * @param lo the lowest bounding index
+     * @param hi the highest bounding index
+     * @return the mean of the values in the bounded array 
+     */
     public static float mean(float[] arr, int lo, int hi){
         float total = 0f;
         if (arr.length == 0){
@@ -63,6 +86,11 @@ public class Main {
 
     } 
 
+    /**
+     * Calculates the mean of an array 
+     * @param arr array of type Float containing the values 
+     * @return the mean of the array 
+     */
     public static float mean(float[] arr){
         float total = 0f;
         if (arr.length == 0){
@@ -80,6 +108,13 @@ public class Main {
     } 
 
 
+    /**
+     * Returns the lowest value of an array bounded by a given maximum and minimum index  
+     * @param arr array of type Float containing the values 
+     * @param lo lowest bounding index
+     * @param hi highest bounding index
+     * @return lowest value of the bounded array 
+     */
     public static Float min(float[] arr, int lo, int hi){
         float minNum = arr[lo];
         if (arr.length == 0){
@@ -101,6 +136,11 @@ public class Main {
         return minNum;
     }
 
+    /**
+     * Returns the lowest value of an array 
+     * @param arr array of type Float containing the values
+     * @return lowest value of the array 
+     */
     public static Float min(float[] arr){
 
         if (arr.length == 0){
@@ -119,6 +159,13 @@ public class Main {
         }
     }
 
+    /**
+     * Returns the highest value of an array bounded by a given maximum and minimum index  
+     * @param arr array of type Float containing the values
+     * @param lo lowest bounding index 
+     * @param hi highest bounding index
+     * @return the highest value of the bounded array 
+     */
     public static Float max(float[] arr, int lo, int hi){
         float maxNum = arr[lo];
         if (arr.length == 0){
@@ -140,6 +187,11 @@ public class Main {
         return maxNum;
     }
 
+    /**
+     * Returns the highest value of an array
+     * @param arr array of type Float containing the values 
+     * @return the highest value of the array 
+     */
     public static Float max(float[] arr){
         if (arr.length == 0){
             float maxNum = Float.NaN;

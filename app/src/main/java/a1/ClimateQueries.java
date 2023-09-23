@@ -1,12 +1,18 @@
+package a1;
+
 import java.io.*;
 import java.util.Scanner;
 
 public class ClimateQueries {
+  /**
+   * Reads the file and places the data in the appropriate array
+   * @param args
+   */
   public static void main(String[] args) {
     String filename = (args.length > 0) ? args[0] : "YUMA_2023.txt";
     Scanner file = null;
       
-    String[] day = new String[226];
+    // String[] day = new String[226];
     // float[] dailyTemp = new float[226]; 
     // float[] janTemp = new float[31];
     // float[] julyTemp = new float[31];
@@ -26,7 +32,7 @@ public class ClimateQueries {
       System.out.println("On " + date + " the temperature was " + temperature + " degrees Celsius.");
     }
     file.close();
-    System.out.println(day);
+    // System.out.println(day);
   }
   
 }

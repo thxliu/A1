@@ -11,15 +11,15 @@ your work, please indicate the status of each item
 
 Assignment Points:
 
-_____ 1 pt: `wholeArraySum` written & tested
+____Yes_ 1 pt: `wholeArraySum` written & tested
 
-_____ 1 pt: `sum` written and tested (all versions)
+___Yes__ 1 pt: `sum` written and tested (all versions)
 
-_____ 1 pt: `mean` written and tested
+____Yes_ 1 pt: `mean` written and tested
 
-_____ 1 pt: `min` and `max` written and tested
+__Yes___ 1 pt: `min` and `max` written and tested
 
-_____ 1 pt: `lowest` and `highest` written and tested
+___Yes_ 1 pt: `lowest` and `highest` written and tested
 
 _____ 1 pts: data read from file into array of float
 

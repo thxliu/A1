@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
 //import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
+    /**
+     * Tests the method wholeSum and terminates the program if it fails a test case
+     */
     @Test public void wholeSumTest() {
         float[] arr1 = {1.0f, 2.0f, 3.0f, 4.0f};
         float result1 = Main.WholeSum(arr1);
@@ -22,6 +25,9 @@ public class MainTest {
         assertEquals(0.0f, result3, 0.0001f);
     }
 
+    /**
+     *  Tests both sum methods and terminates the program if it fails a test case
+     */
     @Test public void sumTest(){
         float[] arr1 = {1.0f, 2.0f, 3.0f, 4.0f};
         int lo1 = 1;
@@ -42,6 +48,9 @@ public class MainTest {
         assertEquals(0.0f, result3, 0.0001f);
     }
 
+    /**
+     *  Tests both mean methods and terminates the program if it fails a test case
+     */
     @Test public void meanTest(){
         float[] arr1 = {1.0f, 2.0f, 3.0f, 4.0f};
         int lo1 = 2;
@@ -58,6 +67,9 @@ public class MainTest {
         assertEquals(0.0f, result3, 0.0001f);
     }
 
+    /**
+     * Tests both min methods and terminates the program if it fails a test case
+     */
     @Test public void minTest(){
         float[] arr1 = {1.0f, 3.0f, 2.0f, 4.0f};
         int lo1 = 1;
@@ -74,6 +86,9 @@ public class MainTest {
         assertEquals(Float.NaN, result3, 0.0001f);
     }
 
+    /**
+     *  Tests both max methods and terminates the program if it fails a test case
+     */
     @Test public void maxTest(){
         float[] arr1 = {1.0f, 3.0f, 2.0f, 4.0f};
         int lo1 = 1;
