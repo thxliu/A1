@@ -17,14 +17,14 @@ public class Main {
         }
     }
 
-    public float sum(float[] arr, int lo, int hi){
+    public static float sum(float[] arr, int lo, int hi){
         float total = 0f;
         if (arr.length == 0){
             total = 0f;
             return total;
         }
         else{
-            for (int index = lo; index < (hi-1); index++){
+            for (int index = lo; index < (hi); index++){
             total +=arr[index];
         }
             return total;
@@ -32,23 +32,55 @@ public class Main {
         
     }
 
-    public float mean(float[] arr, int lo, int hi){
+    public static float sum(float[] arr){
         float total = 0f;
         if (arr.length == 0){
             total = 0f;
             return total;
         }
+
         else{
-            for (int index = lo; index < (hi-1); index++){
-            total +=arr[index];
+            for (int index = 0; index < (arr.length); index++){
+                total +=arr[index];
+            }
+            return total;
         }
-        total = total/arr.length;
-        return total;
+    }
+
+    public static float mean(float[] arr, int lo, int hi){
+        float total = 0f;
+        if (arr.length == 0){
+            total = 0f;
+            return total;
         }
-       
+
+        else{
+            for (int index = lo; index < hi; index++){
+                total += arr[index];
+            }
+            return (total/(hi-lo));
+        }
+
     } 
 
-    public Float min(float[] arr, int lo, int hi){
+    public static float mean(float[] arr){
+        float total = 0f;
+        if (arr.length == 0){
+            total = 0f;
+            return total;
+        }
+
+        else{
+            for (int index = 0; index < arr.length; index++){
+                total += arr[index];
+            }
+            return (total/(arr.length));
+        }
+
+    } 
+
+
+    public static Float min(float[] arr, int lo, int hi){
         float minNum = arr[lo];
         if (arr.length == 0){
             minNum = Float.NaN;
@@ -59,7 +91,7 @@ public class Main {
                 return minNum;
         }
         else{
-            for (int index = lo; index < (hi-1); index++){
+            for (int index = lo; index < (hi); index++){
                 if(minNum > arr[index]){
                     minNum = arr[index];
                     return minNum;
@@ -69,7 +101,25 @@ public class Main {
         return minNum;
     }
 
-    public Float max(float[] arr, int lo, int hi){
+    public static Float min(float[] arr){
+
+        if (arr.length == 0){
+            float minNum = Float.NaN;
+            return minNum;
+        }
+        else{
+            float minNum = arr[0];
+            for (int index = 0; index < (arr.length); index++){
+                if(minNum > arr[index]){
+                    minNum = arr[index];
+                    return minNum;
+                }
+            }
+            return minNum;
+        }
+    }
+
+    public static Float max(float[] arr, int lo, int hi){
         float maxNum = arr[lo];
         if (arr.length == 0){
             maxNum = Float.NaN;
@@ -80,7 +130,7 @@ public class Main {
                 return maxNum;
         }
         else{
-            for (int index = lo; index < (hi-1); index++){
+            for (int index = lo; index < (hi); index++){
                 if(maxNum < arr[index]){
                     maxNum = arr[index];
                     return maxNum;
@@ -90,8 +140,21 @@ public class Main {
         return maxNum;
     }
 
-    public static void main(String[] args) {
-        
+    public static Float max(float[] arr){
+        if (arr.length == 0){
+            float maxNum = Float.NaN;
+            return maxNum;
+        }
+        else{
+            float maxNum = arr[0];
+            for (int index = 0; index < (arr.length); index++){
+                if(maxNum < arr[index]){
+                    maxNum = arr[index];
+                    return maxNum;
+                }
+            }
+            return maxNum;
+        }
     }
 
 
