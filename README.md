@@ -166,3 +166,10 @@ If you're interested, we offer this completely optional extension to the assignm
 Class `SVG_Spark` contains a method that takes a `float[]` array plus file name and writes an SVG image file with a line plot of the values in the array.  You can use this to visualize trends, etc.
 
 ![Average daily temperatures for one year](temps.svg "Average daily temperatures for one year")
+
+REFLECTION
+What Worked Well: Despite being a bit worried about making my own tests since we didn't really get the chance to practice it in 120, I feel a lot more confident in using JUnit and creating my own test cases. I thought the anticipation of waiting to see if your code passes extreme and random test cases was fun too!
+
+What I'm Struggling With: I definitely struggled and am still struggling with reading the file. A majority of the bumps I had along the way was moreso due to technical issue, but I also found myself struggling to understand the instructions and how to best go about writing my code. I wasn't always sure what the ReadME was asking for, which definitely made it harder to begin coding. Another problem I ran into was figuring out where to initialize my variables if I was working with an if statement or for loop, so I had to refresh my memory. 
+
+What I'd Do Differently Next Time: Next time, I would definitely read the ReadME ahead of time rather than as I go along so that I know from the start what goals I am working towards. As I mentioned above, I had some trouble with understanding what was being asked of me and how to turn it into small achievable steps, so I will break down each part of the assignment next time. I also hope to work more collaboratively on the next assignments so I can get the perspectives of others and learn from them as well! 

@@ -1,6 +1,6 @@
 package a1;
 
-public class Main {
+public class ArrayMethods {
 
     /**
      * Calculates the sum of the numbers in a given array 
