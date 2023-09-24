@@ -1,5 +1,8 @@
 package a1;
 
+/**
+ * A series of methods to do basic mathematical calculations 
+ */
 public class ArrayMethods {
 
     /**

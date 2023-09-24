@@ -7,6 +7,9 @@ import static org.junit.Assert.*;
 //import com.sun.tools.javac.util.Assert;
 //import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * A series of tests for the mathematical methods created in ArrayMethods
+ */
 public class ArrayMethodsTest {
     /**
      * Tests the method wholeSum and terminates the program if it fails a test case

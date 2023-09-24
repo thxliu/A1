@@ -40,22 +40,22 @@ _____ (Kudos!) Create your own SVG image plots
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+___Yes__ 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+___Yes__ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      ____Yes_ Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      ___Yes__ Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      ___Yes__ Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      ___Yes__ Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      ___Yes__ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+___Yes__ 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: readme.md contains your reflection on the assignment
+____Yes_ 1 pt: readme.md contains your reflection on the assignment
